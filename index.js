@@ -8,5 +8,5 @@ app.get('/',(req, res)=>{
 })
 
 app.listen(process.env.PORT,()=>{
-    console.log(`THe server is start at $PORT`)
+    console.log(`THe server is start at $(PORT)`)
 })
